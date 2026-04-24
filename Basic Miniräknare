@@ -1,0 +1,23 @@
+{
+    // nya kalkylatorn
+    Console.WriteLine("Skriv första numret:");
+    int num3 = int.Parse(Console.ReadLine());
+
+    Console.WriteLine("Skriv andra numret:");
+    int num4 = int.Parse(Console.ReadLine());
+
+    // beräkningar
+    int sum = num3 + num4;
+    int diff = num3 - num4;
+    int mul = num3 * num4;
+    int div = num3 / num4;
+    int mod = num3 % num4;
+
+    // utsrift
+
+    Console.WriteLine($"Sum: {sum}");
+    Console.WriteLine($"Diff: {diff}");
+    Console.WriteLine($"Mul: {mul}");
+    Console.WriteLine($"Div: {div}");
+    Console.WriteLine($"Mod: {mod}");
+}
